@@ -1,0 +1,250 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color:black;
+    font-family:'Lobster',cursive;
+}
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right:10px;
+    margin-left:10px;
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    text-transform:uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+.search{
+    height:40px;
+    width:80%;
+    border-radius:60px;
+    outline:none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border:2px solid rgb(26, 24, 25);
+}
+.btn0{
+    height:40px;
+    width:40%;
+    outline:none;
+    border:none;
+    background:rgb(18, 17, 17);
+    color:white;
+    border-radius:60px;
+    font-weight: 700;
+}
+
+.main {
+    background: url("https://wallpapercave.com/wp/wp8014047.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    height: 90vh;
+    width: 100%; 
+    display: flex;
+    align-items: center; /* Vertically center content */
+}
+
+.col-lg-7 {
+    flex-grow: 1; /* Allow the column to grow to fill the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: -450px;
+    margin-top: 60px; /* You can adjust this as needed */
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.product .col-lg-4 {
+    margin-bottom: 20px; /* Add margin between rows */
+}
+/* Custom CSS */
+.btn-red {
+    background-color: red !important;
+    color: white !important;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.offers {
+    background-color: #f8f9fa;
+}
+
+.offer-carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snapping to each image */
+}
+
+.offer-item {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    scroll-snap-align: center; /* Center align each image when scrolling */
+    margin-right: 20px; /* Add some space between each image */
+}
+
+.offer-item img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.offers {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.image-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.image {
+  flex: 0 0 25%; /* Each image occupies 1/4 of the container */
+  scroll-snap-align: center;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: center; /* Center-align the text */
+}
+
+.image img {
+  width: 100%; /* Ensure the image fills the container */
+  height: auto;
+  max-height: 300px; /* Adjust image height */
+  display: block; /* Fix inline gap */
+}
+h2 {
+font-size: 75px; /* Increase the font size of the title */
+font-weight: bold; /* Make the title bold */
+}
+
+.text {
+  margin-top: 10px; /* Add some space between image and text */
+}
+.image {
+    flex: 0 0 25%; /* Each image occupies 1/4 of the container */
+    scroll-snap-align: center;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center; /* Center-align the text */
+    border: 1px solid #ccc; /* Add border to the image container */
+  }
+  
+  .image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto;
+    max-height: 300px; /* Adjust image height */
+    display: block; /* Fix inline gap */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+  }
+  
+  .image:hover img {
+    transform: scale(1.1); /* Increase image size on hover */
+  }
+  
+  .text {
+    margin-top: 10px; /* Add some space between image and text */
+  }
+  
+  .text:hover {
+    color: red; /* Change text color on hover (example) */
+  }
+  
+
+  .news{
+    background-color: black;
+    color: white;
+
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder{
+    color: white;
+}
+
+.news p{
+    margin: 0;
+}
+
+
+     .body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .about-section {
+            background-image: url('https://www.comstocksmag.com/sites/main/files/imagecache/lightbox/main-images/0520_feat_agriculture_shutterstock_lead.jpg');
+            background-size: cover;
+            color: #fff;
+            padding: 120px;
+            display: flex;
+            align-items: center;
+            margin-top: 90px; /* Adjust the value as needed for the desired space */
+            margin-bottom: 30px;
+        }
+
+        .about-content {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .about-content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
